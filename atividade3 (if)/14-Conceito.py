@@ -3,7 +3,7 @@ nota=float(input("Digite a nota: "))
 
 if 9<=nota<=10:
     print("Nota A")
-elif nota>7:
+elif 7<=nota<9:
     print('Nota B')
 elif nota>5:
     print('Nota C')
