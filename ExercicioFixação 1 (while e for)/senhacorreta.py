@@ -2,13 +2,15 @@ print("Senha correta")
 print(" ")
 
 senha = "123mudar"
-digite = input('Digite a senha')
+digite = input('Digite a senha: ')
 
 x=0
-while x>0:
-    print("Senha incorreta")
-    digite = input('Digite a senha')
-    x=x+1
+while x>=0:
     if digite == senha:
         print("Acesso permitido")
         break 
+    
+    print("Senha incorreta")
+    digite = input('Digite a senha: ')
+    x=x+1
+    
